@@ -1,0 +1,16 @@
+package first_project;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ArrayList<int[]> numbers = new ArrayList<int[]>();
+		
+		
+		
+	}
+	
+	
+
+}

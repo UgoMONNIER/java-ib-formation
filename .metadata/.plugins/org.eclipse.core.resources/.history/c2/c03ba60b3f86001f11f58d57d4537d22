@@ -1,0 +1,27 @@
+package exercice5;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+	    ArrayList<String> tentatives = new ArrayList<String>();
+	    String mot_de_passe = new String();
+	    mot_de_passe = "mot_de_passe";
+        System.out.print( "Insérer le mot de passe : " );
+		try ( Scanner scanner = new Scanner( System.in ) ) {
+			do{
+				String tentative = scanner.next();
+				tentatives.add(tentative);
+				System.out.print( "Insérer le mot de passe : " );
+				try ( Scanner scanner2 = new Scanner( System.in ) ) {
+					tentative = scanner2.next();
+					System.out.println(mot_de_passe.compareTo(tentative));
+				}
+				System.out.print( "Insérer le mot de passe : " );
+			}while( mot_de_passe.equalsIgnoreCase(tentative));
+            System.out.print( "Felicitation mot de passe trouvé !" );
+            System.out.println(tentatives);
+        }	
+	}
+}

@@ -1,0 +1,26 @@
+package first_project;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("helo");
+		int marieAge = 25;
+		int pierreAge = 15;
+		int ageMajeure = 18;
+		this.functionAge(int marieAge);
+		
+		
+
+	}
+	
+	public void functionAge(int age) {
+		if(age > 18) {
+			System.out.println("Can enter");
+		}else {
+			System.out.println("Can not enter");
+		}
+	}
+
+}

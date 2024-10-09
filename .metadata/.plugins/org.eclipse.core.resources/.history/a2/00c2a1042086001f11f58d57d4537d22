@@ -1,0 +1,18 @@
+package first_project;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		int marieAge = 25;
+		int ageMajeure = 18;
+		if(marieAge > ageMajeure) {
+			System.out.println("Can enter");
+		}else {
+			System.out.println("Can not enter");
+		}
+		
+	}
+	
+
+}

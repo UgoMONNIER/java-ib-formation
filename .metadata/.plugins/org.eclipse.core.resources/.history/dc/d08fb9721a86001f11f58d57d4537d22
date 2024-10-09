@@ -1,0 +1,12 @@
+package first_project;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("helo");
+		int quantityStorage = 0;
+		if(quantityStorage > 100)
+
+	}
+
+}
